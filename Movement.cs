@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
         {
             moveDirection = input;
 
-            if (Input.GetKeyDown("Space"))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 moveDirection.y = Mathf.Sqrt(2 * gravity * jumpHeight);
             }
